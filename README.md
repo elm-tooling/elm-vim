@@ -6,14 +6,14 @@ Instructions to get started with Elm tooling in Vim.
 
 [`elm-language-server`](https://github.com/elm-tooling/elm-language-server) provides diagnostics (`elm make`), linting (`elm-analyse`), jump to definition, formatting (`elm-format`) and other features. It is a standalone implementation of the language server protocol (LSP). 
 
-### Usage with `w0rp/ale`
+### Usage with ale
 
 Install [`ale`](https://github.com/w0rp/ale) and [`antew/vim-elm-language-server`](https://github.com/antew/vim-elm-language-server).
 See [elm-language-server README](https://github.com/elm-tooling/elm-language-server#ale) and [ale README](https://github.com/w0rp/ale#usage) for usage instructions. 
 
 **NOTE:** `antew/vim-elm-language-server` will be merged into `ale` itself in the future.
 
-### Usage with `jvoorhis/coq.vim`
+### Usage with coq
 
 Install [`coq`](https://github.com/jvoorhis/coq.vim). Look into [elm-language-server README](https://github.com/elm-tooling/elm-language-server#cocnvim) for setup and usage instructions.
 
