@@ -36,7 +36,7 @@ Install [`vim-test`](https://github.com/janko/vim-test). It contains [`elmtest.v
 
 Install [`majutsushi/tagbar`](https://github.com/majutsushi/tagbar) and configure content displayed in the tagbar.
 
-```
+```vim
 let g:tagbar_type_elm = {
       \ 'kinds' : [
       \ 'f:function:0:0',
@@ -50,3 +50,8 @@ let g:tagbar_type_elm = {
       \ ]
       \}
 ```
+
+## Configuration examples / dotfiles
+
+* [`andys8/dotfiles`](https://github.com/andys8/dotfiles)
+* [`Augustin82/vim`](https://github.com/Augustin82/vim)
