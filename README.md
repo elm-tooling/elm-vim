@@ -13,9 +13,9 @@ See [elm-language-server README](https://github.com/elm-tooling/elm-language-ser
 
 **NOTE:** `antew/vim-elm-language-server` will be merged into `ale` itself in the future.
 
-### Usage with coq
+### Usage with Coc.nvim
 
-Install [`coq`](https://github.com/jvoorhis/coq.vim). Look into [elm-language-server README](https://github.com/elm-tooling/elm-language-server#cocnvim) for setup and usage instructions.
+Install [`Coc`](https://github.com/neoclide/coc.nvim). Look into [elm-language-server README](https://github.com/elm-tooling/elm-language-server#cocnvim) for setup and usage instructions.
 
 ## Syntax highlighting
 
