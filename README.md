@@ -4,7 +4,7 @@ Instructions to get started with Elm tooling in Vim.
 
 ## Language Server
 
-[`elm-language-server`](https://github.com/elm-tooling/elm-language-server) provides most features, e.g. diagnostics (`elm make`), linting (`elm-analyse`), jump to definition, formatting (`elm-format`) and more. It is a standalone implementation of the language server protocol (LSP). 
+[`elm-language-server`](https://github.com/elm-tooling/elm-language-server) provides most features, e.g. diagnostics (`elm make`), linting ([`elm-analyse`](https://github.com/stil4m/elm-analyse)), jump to definition, formatting (`elm-format`) and more. It is a standalone implementation of the language server protocol (LSP). 
 
 ### Usage with ale
 
