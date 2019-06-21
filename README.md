@@ -4,7 +4,7 @@ Instructions to get started with Elm tooling in Vim.
 
 ## Language Server
 
-[`elm-language-server`](https://github.com/elm-tooling/elm-language-server) provides most features, e.g. diagnostics (`elm make`), linting ([`elm-analyse`](https://github.com/stil4m/elm-analyse)), jump to definition, formatting (`elm-format`) and more. It is a standalone implementation of the language server protocol (LSP). 
+[`elm-language-server`](https://github.com/elm-tooling/elm-language-server) provides most features, e.g. diagnostics (`elm make`), linting ([`elm-analyse`](https://github.com/stil4m/elm-analyse)), jump to definition, formatting ([`elm-format`](https://github.com/avh4/elm-format)) and more. It is a standalone implementation of the language server protocol (LSP). 
 
 ### Usage with ale
 
@@ -20,6 +20,10 @@ Install [`Coc`](https://github.com/neoclide/coc.nvim). Look into [elm-language-s
 ## Syntax highlighting
 
 Install [`elm-vim-syntax`](https://github.com/andys8/vim-elm-syntax). It'll provide syntax highlighting and indentation.
+
+## Code formatting
+
+Code formatting (`elm-format`) is part of `elm-language-server`. An alternative is [`ale`](https://github.com/w0rp/ale)'s [`elm-format` fixer](https://github.com/w0rp/ale/blob/8768a309b8ef1c2e819dcb6f4630f73acab59792/doc/ale-elm.txt#L6-L29).
 
 ## Snippets
 
