@@ -8,10 +8,7 @@ Instructions to get started with Elm tooling in Vim.
 
 ### Usage with ale
 
-Install [`ale`](https://github.com/w0rp/ale) and [`antew/vim-elm-language-server`](https://github.com/antew/vim-elm-language-server).
-See [elm-language-server README](https://github.com/elm-tooling/elm-language-server#ale) and [ale README](https://github.com/w0rp/ale#usage) for usage instructions. 
-
-**NOTE:** `antew/vim-elm-language-server` will be merged into `ale` itself in the future.
+Install [`ale`](https://github.com/w0rp/ale) and use `elm_ls` linter. See [elm-language-server README](https://github.com/elm-tooling/elm-language-server#ale) and [ale README](https://github.com/w0rp/ale#usage) for usage instructions. 
 
 ### Usage with Coc.nvim
 
