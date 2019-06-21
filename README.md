@@ -57,7 +57,7 @@ let g:tagbar_type_elm = {
 
 ## Configuration examples / dotfiles
 
-* [`andys8/dotfiles`](https://github.com/andys8/dotfiles)
+* [`andys8/dotfiles`](https://github.com/andys8/dotfiles/blob/master/vimrc.local)
 * [`Augustin82/vim`](https://github.com/Augustin82/vim)
 * [`antoine-atmire/vim-elmc`](https://github.com/antoine-atmire/vim-elmc)
 * [`pehota/dotfiles`](https://github.com/pehota/dotfiles/blob/vim-elm/vimrc)
