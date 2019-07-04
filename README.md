@@ -27,10 +27,8 @@ Code formatting (`elm-format`) is part of `elm-language-server`. An alternative 
 
 ## Snippets
 
-Install [`Ultisnips`](https://github.com/SirVer/ultisnips) for snippet functionality.
-Install [`honza/vim-snippets`](https://github.com/honza/vim-snippets) which contains [`elm.snippets`](https://github.com/honza/vim-snippets/blob/master/snippets/elm.snippets)
-
-**NOTE:** Will probably provided by `elm-language-server` completion provider instead.
+* Install [`Ultisnips`](https://github.com/SirVer/ultisnips) for snippet functionality. Install [`honza/vim-snippets`](https://github.com/honza/vim-snippets) which contains [`elm.snippets`](https://github.com/honza/vim-snippets/blob/master/snippets/elm.snippets)
+* Use snippets of `elm-language-server` e.g. with `coc`.
 
 ## Tests
 
