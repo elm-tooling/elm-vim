@@ -61,3 +61,4 @@ let g:tagbar_type_elm = {
 * [`antoine-atmire/vim-elmc`](https://github.com/antoine-atmire/vim-elmc)
 * [`pehota/dotfiles`](https://github.com/pehota/dotfiles/blob/vim-elm/vimrc)
 * [`hulufei/dotfiles`](https://github.com/hulufei/dotfiles)
+* [`Miaxos/Home-`](https://github.com/Miaxos/Home-/blob/master/.vimrc)
