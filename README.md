@@ -8,11 +8,11 @@ Instructions to get started with Elm tooling in Vim.
 
 ### Usage with ale
 
-Install [`ale`](https://github.com/dense-analysis/ale) and use `elm_ls` linter. See [elm-language-server README](https://github.com/elm-tooling/elm-language-server#ale), [ale README](https://github.com/dense-analysis/ale#usage) and [ale docs](https://github.com/dense-analysis/ale/blob/master/doc/ale-elm.txt) for usage instructions. 
+Install [`ale`](https://github.com/dense-analysis/ale) and use `elm_ls` linter. See [`elm-language-server` README](https://github.com/elm-tooling/elm-language-server#ale), [`ale` README](https://github.com/dense-analysis/ale#usage) and [`ale` docs](https://github.com/dense-analysis/ale/blob/master/doc/ale-elm.txt) for usage instructions. 
 
 ### Usage with Coc.nvim
 
-Install [`Coc`](https://github.com/neoclide/coc.nvim). Look into [elm-language-server README](https://github.com/elm-tooling/elm-language-server#cocnvim) for setup and usage instructions.
+Install [`Coc`](https://github.com/neoclide/coc.nvim). Look into [elm-language-server README](https://github.com/elm-tooling/elm-language-server#cocnvim) or [`Coc` wiki](https://github.com/neoclide/coc.nvim/wiki/Language-servers#elm) for setup and usage instructions.
 
 ## Syntax highlighting
 
@@ -26,7 +26,7 @@ Code formatting (`elm-format`) is part of `elm-language-server`. An alternative 
 
 Install [`Ultisnips`](https://github.com/SirVer/ultisnips) for snippet functionality. Install [`honza/vim-snippets`](https://github.com/honza/vim-snippets) which contains [`elm.snippets`](https://github.com/honza/vim-snippets/blob/master/snippets/elm.snippets)
 
-Or use snippets of `elm-language-server` e.g. with `coc`.
+Or use snippets of `elm-language-server` (e.g. with `Coc`).
 
 ## Tests
 
