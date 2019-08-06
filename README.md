@@ -59,3 +59,4 @@ let g:tagbar_type_elm = {
 * [`pehota/dotfiles`](https://github.com/pehota/dotfiles/blob/vim-elm/vimrc)
 * [`hulufei/dotfiles`](https://github.com/hulufei/dotfiles)
 * [`Miaxos/Home-`](https://github.com/Miaxos/Home-/blob/master/.vimrc)
+* [`leojpod/dotfiles`](https://github.com/leojpod/dotfiles)
