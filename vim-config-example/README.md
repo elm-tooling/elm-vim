@@ -4,7 +4,7 @@ Small (not minimal) configuration to setup a working Elm environment leveraging 
 
 ## Setup
 
-Requires `vim`, `elm`, `elm-format` and `elm-test` installed globally by default.
+Requires `vim`, `elm`, `elm-format`, `elm-test`, `elm-language-server` installed globally by default.
 
 ### .vimrc
 
