@@ -6,7 +6,7 @@ Small (not minimal) configuration to setup a working Elm environment leveraging 
 
 Requires `vim`, `elm`, `elm-format` and `elm-test` installed globally by default.
 
-### [`.vimrc`](./.vimrc)
+### .vimrc
 
 Copy [`.vimrc`](./.vimrc) into the user `$HOME` directory.
 
@@ -18,7 +18,7 @@ Or instead use `vim -u .vimrc` to pass to path to the `.vimrc` file.
 vim +PlugInstall +qall
 ```
 
-### [`coc-settings.json`](./coc-settings.json)
+### coc-settings.json
 
 Copy [`coc-settings.json`](./coc-settings.json) to `$HOME/.vim/`.
 
