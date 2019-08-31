@@ -4,23 +4,31 @@ Small (not minimal) configuration to setup a working Elm environment leveraging 
 
 ## Setup
 
-Requires `vim`, `elm`, `elm-format`, `elm-test`, `elm-language-server` installed globally by default.
-
-### .vimrc
-
-Copy [`.vimrc`](./.vimrc) into the user `$HOME` directory.
-
-Or instead use `vim -u .vimrc` to pass to path to the `.vimrc` file.
-
-### Install plugins
+Requires `vim`, `elm`, `elm-format`, `elm-test`, and `elm-language-server` to be installed globally by default.
 
 ```sh
-vim +PlugInstall +qall
+git clone https://github.com/elm-tooling/elm-vim.git
+cd elm-vim/vim-config-example
+cp .vimrc ~
+mkdir ~/.vim
+cp coc-settings.json ~/.vim/
+vim
 ```
 
-### coc-settings.json
+### Setup steps explained
 
-Copy [`coc-settings.json`](./coc-settings.json) to `$HOME/.vim/`.
+#### .vimrc
+
+Copy [`.vimrc`](./.vimrc) into the user `$HOME` directory.
+Or use `vim -u .vimrc` instead to pass to path to the `.vimrc` file.
+
+#### coc-settings.json
+
+Copy [`coc-settings.json`](./coc-settings.json) to `$HOME/.vim/` (create directory if missing).
+
+#### Install plugins
+
+Opening `vim` will download the plugins. Close with `:q!<Enter>`.
 
 ## Usage
 
