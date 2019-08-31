@@ -51,7 +51,11 @@ let g:tagbar_type_elm = {
       \}
 ```
 
-## Configuration examples / dotfiles
+## Configuration examples
+
+There is an [example configuration](./vim-config-example/README.md) to showcase a small Vim setup for Elm.
+
+### User configurations
 
 * [`andys8/dotfiles`](https://github.com/andys8/dotfiles/blob/master/vimrc.local)
 * [`Augustin82/vim`](https://github.com/Augustin82/vim)
