@@ -1,6 +1,6 @@
 # Example Vim Elm Configuration
 
-Small (not minimal) configuration to setup a working Elm environment leveraging the `elm-language-server` in Vim. It's using [vim-plug](https://github.com/junegunn/vim-plug) as plugin manager, [coc](https://github.com/neoclide/coc.nvim) as a language client and the [elm-language-server](https://github.com/elm-tooling/elm-language-server).
+Small (not minimal) configuration to setup a working Elm environment leveraging the [elm-language-server](https://github.com/elm-tooling/elm-language-server) in Vim. It's using [vim-plug](https://github.com/junegunn/vim-plug) as plugin manager and [coc](https://github.com/neoclide/coc.nvim) as a language client.
 
 ## Setup
 
