@@ -8,21 +8,23 @@ Requires `vim`, `elm`, `elm-format` and `elm-test` installed globally by default
 
 ### [`.vimrc`](./.vimrc)
 
-Use `vim -u .vimrc` or copy `.vimrc` to `$HOME`
+Copy [`.vimrc`](./.vimrc) into the user `$HOME` directory.
+
+Or instead use `vim -u .vimrc` to pass to path to the `.vimrc` file.
 
 ### Install plugins
 
 ```sh
-vim -u .vimrc +PlugInstall +qall
+vim +PlugInstall +qall
 ```
 
 ### [`coc-settings.json`](./coc-settings.json)
 
-Copy `coc-settings.json` to `$HOME/.vim/`
+Copy [`coc-settings.json`](./coc-settings.json) to `$HOME/.vim/`.
 
 ## Usage
 
-Open an elm file e.g. `vim -u .vimrc Main.elm`
+Open an elm file e.g. `vim Main.elm`
 
 * Format: `,p`
 * Hover: `,g`
