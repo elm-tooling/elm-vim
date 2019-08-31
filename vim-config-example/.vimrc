@@ -1,3 +1,4 @@
+" General settings
 set nocompatible
 set hidden
 set encoding=utf-8
@@ -8,7 +9,7 @@ set shiftwidth=4
 set expandtab
 set shell=/bin/sh
 
-"" Fix backspace indent
+" Fix backspace indent
 set backspace=indent,eol,start
 
 filetype plugin indent on
@@ -23,17 +24,19 @@ endif
 " Plugins
 call plug#begin('~/.vim/plugged')
 
+" Syntax highlighting
 Plug 'andys8/vim-elm-syntax', { 'for': ['elm'] }
+
+" Language server client
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 
 " Initialize plugin system
 call plug#end()
 
-" Keybindings
-
-" Map leader to ,
+" Map <leader> to `,`
 let mapleader=','
 
+" Keybindings
 nmap <leader>r <Plug>(coc-rename)
 nmap <silent> <leader>s <Plug>(coc-fix-current)
 nmap <silent> <leader>S <Plug>(coc-codeaction)
