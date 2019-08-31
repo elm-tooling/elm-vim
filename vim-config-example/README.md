@@ -1,6 +1,6 @@
 # Example Vim Elm Configuration
 
-Small (not minimal) configuration to setup a working Elm environment leveraging the `elm-language-server` in Vim.
+Small (not minimal) configuration to setup a working Elm environment leveraging the `elm-language-server` in Vim. It's using [vim-plug](https://github.com/junegunn/vim-plug) as plugin manager, [coc](https://github.com/neoclide/coc.nvim) as a language client and the [elm-language-server](https://github.com/elm-tooling/elm-language-server).
 
 ## Setup
 
@@ -33,3 +33,8 @@ Open an elm file e.g. `vim Main.elm`
 * Jump to error: `,a`
 * Solve error: `,s`
 * Rename variable: `,r`
+
+## Debugging
+
+* `:CocInfo<Enter>` shows log messages
+* `:CocConfig<Enter>` opens coc configuration
