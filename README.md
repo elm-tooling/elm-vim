@@ -24,7 +24,7 @@ Install [`elm-vim-syntax`](https://github.com/andys8/vim-elm-syntax). It'll prov
 
 ## Linting
 
-[`elm-analyse`](https://github.com/avh4/elm-format) is used by `elm-language-server` to lint code. It doesn't need to be installed manually.
+[`elm-analyse`](https://github.com/stil4m/elm-analyse) is used by `elm-language-server` for static code analysis of elm code. It doesn't need to be installed manually. Its [checks](https://stil4m.github.io/elm-analyse/#/messages) can be [configured](https://stil4m.github.io/elm-analyse/#/configuration).
 
 ## Snippets
 
