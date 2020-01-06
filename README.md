@@ -85,6 +85,10 @@ Frequently asked questions. Feel free to contribute.
 
 Start with the official [`CoC example configuration`](https://github.com/neoclide/coc.nvim#example-vim-configuration). Then start to look into our [example configuration](./vim-config-example/README.md) and [user configurations](#user-configurations). It'll take some time and tweaking until you find a configuration that's perfect for you.
 
+### "How can I format files on save with CoC?"
+
+Add `"coc.preferences.formatOnSaveFiletypes": ["elm"]` to `coc-settings.json`.
+
 ### "CoC shows only first lines of error message in floating window"
 
 CoC uses floating windows to display diagnostics (error messages). By default only the first 8 lines are shown.
@@ -108,10 +112,6 @@ Add a `elm-analyse.json` config file like this and add [check names](https://sti
   }
 }
 ```
-
-### "How can I format files on save with CoC?"
-
-Add `"coc.preferences.formatOnSaveFiletypes": ["elm"]` to `coc-settings.json`.
 
 ### "What about `ElmCast/elm-vim`?"
 
