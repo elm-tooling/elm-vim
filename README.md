@@ -14,7 +14,7 @@ Install [`elm-language-server`](https://github.com/elm-tooling/elm-language-serv
 
 #### Usage with CoC.nvim _(recommended)_
 
-Install [`Coc`](https://github.com/neoclide/coc.nvim). Look into [elm-language-server README](https://github.com/elm-tooling/elm-language-server#cocnvim) or [`CoC` wiki](https://github.com/neoclide/coc.nvim/wiki/Language-servers#elm) for setup and usage instructions.
+Install [`CoC`](https://github.com/neoclide/coc.nvim). Look into [elm-language-server README](https://github.com/elm-tooling/elm-language-server#cocnvim) or [`CoC` wiki](https://github.com/neoclide/coc.nvim/wiki/Language-servers#elm) for setup and usage instructions.
 
 #### Usage with ale
 
@@ -34,7 +34,7 @@ Install [`elm-vim-syntax`](https://github.com/andys8/vim-elm-syntax). It'll prov
 
 ### Snippets
 
-`elm-language-server` provides snippets (e.g. with `Coc`).
+`elm-language-server` provides snippets (e.g. with `CoC`).
 
 An alternative is to install [`Ultisnips`](https://github.com/SirVer/ultisnips) for snippet functionality. Install [`honza/vim-snippets`](https://github.com/honza/vim-snippets) which contains [`elm.snippets`](https://github.com/honza/vim-snippets/blob/master/snippets/elm.snippets)
 
@@ -80,6 +80,10 @@ It's a good idea to take a look how others are configuring their environments. H
 ## FAQ
 
 Frequently asked questions. Feel free to contribute.
+
+### "How do I configure CoC and set up keybindings?"
+
+Start with the official [`CoC example configuration`](https://github.com/neoclide/coc.nvim#example-vim-configuration). Then start to look into our [example configuration](./vim-config-example/README.md) and [user configurations](#user-configurations). It'll take some time and tweaking until you find a configuration that's perfect for you.
 
 ### "CoC shows only first lines of error message in floating window"
 
