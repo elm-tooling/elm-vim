@@ -77,8 +77,28 @@ Frequently asked questions. Feel free to contribute.
 
 ### "CoC shows only first lines of error message in floating window"
 
-Coc uses floating windows to display diagnostics (error messages). By default only the first 8 lines are shown.
+CoC uses floating windows to display diagnostics (error messages). By default only the first 8 lines are shown.
 
 - Raise maximum number of error lines displayed with [`diagnostic.maxWindowHeight`](https://github.com/neoclide/coc.nvim/blob/2bd1385d9d443948d06d5bce82cadfdac185fcc1/doc/coc.txt#L379)
 - [Disable floating window](https://github.com/neoclide/coc.nvim/wiki/F.A.Q#how-could-i-disable-floating-window) and use `diagnostic.messageTarget` `"echo"` instead
 - Look into how to [scroll inside the floating window](https://github.com/elm-tooling/elm-vim/issues/3).
+
+### "How can I disable elm-analyse inside of elm-language-server?"
+
+It's possible to configure when `elm-analyse` will be triggered or disable it with config `"elmAnalyseTrigger": "never"`. See ["server settings"](https://github.com/elm-tooling/elm-language-server#server-settings).
+
+### "How can I disable an elm-analyse rule?"
+
+Add a `elm-analyse.json` config file like this and add [check names](https://stil4m.github.io/elm-analyse/#/messages).
+
+```json
+{
+  "checks": {
+    "UnusedTypeAlias": false
+  }
+}
+```
+
+### "How can I format files on save with CoC?"
+
+Add `"coc.preferences.formatOnSaveFiletypes": ["elm"]` to `coc-settings.json`.
