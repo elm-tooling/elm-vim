@@ -2,6 +2,10 @@
 
 Instructions to get started with [Elm](https://elm-lang.org) tooling in [Vim](https://www.vim.org).
 
+- [Setup](#setup)
+- [Configuration examples](#configuration-examples)
+- [FAQ](#faq)
+
 ## Setup
 
 ### Language Server
