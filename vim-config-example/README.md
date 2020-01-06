@@ -34,15 +34,15 @@ Opening `vim` will download the plugins. Close with `:q!<Enter>`.
 
 Open an elm file e.g. `vim Main.elm`
 
-* Format: `,p`
-* Hover: `,g`
-* Show usages: `,u`
-* Jump to definition: `,d`
-* Jump to error: `,a`
-* Solve error: `,s`
-* Rename variable: `,r`
+- Format: `,p`
+- Hover: `,g`
+- Show usages: `,u`
+- Jump to definition: `,d`
+- Jump to error: `,a`
+- Solve error: `,s`
+- Rename variable: `,r`
 
 ## Debugging
 
-* `:CocInfo<Enter>` shows log messages
-* `:CocConfig<Enter>` opens coc configuration
+- `:CocInfo<Enter>` shows log messages
+- `:CocConfig<Enter>` opens coc configuration
