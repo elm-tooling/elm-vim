@@ -61,10 +61,24 @@ There is an [example configuration](./vim-config-example/README.md) to showcase 
 
 ### User configurations
 
-- [`andys8/dotfiles`](https://github.com/andys8/dotfiles/blob/master/vimrc.local)
+It's a good idea to take a look how others are configuring their environments. Here are some examples:
+
+- [`andys8/dotfiles`](https://github.com/andys8/dotfiles)
 - [`Augustin82/vim`](https://github.com/Augustin82/vim)
 - [`antoine-atmire/vim-elmc`](https://github.com/antoine-atmire/vim-elmc)
 - [`pehota/dotfiles`](https://github.com/pehota/dotfiles/blob/vim-elm/vimrc)
 - [`hulufei/dotfiles`](https://github.com/hulufei/dotfiles)
 - [`Miaxos/Home-`](https://github.com/Miaxos/Home-/blob/master/.vimrc)
 - [`leojpod/dotfiles`](https://github.com/leojpod/dotfiles)
+
+## FAQ
+
+Frequently asked questions. Feel free to contribute.
+
+### "CoC shows only first lines of error message in floating window"
+
+Coc uses floating windows to display diagnostics (error messages). By default only the first 8 lines are shown.
+
+- Raise maximum number of error lines displayed with [`diagnostic.maxWindowHeight`](https://github.com/neoclide/coc.nvim/blob/2bd1385d9d443948d06d5bce82cadfdac185fcc1/doc/coc.txt#L379)
+- [Disable floating window](https://github.com/neoclide/coc.nvim/wiki/F.A.Q#how-could-i-disable-floating-window) and use `diagnostic.messageTarget` `"echo"` instead
+- Look into how to [scroll inside the floating window](https://github.com/elm-tooling/elm-vim/issues/3).
