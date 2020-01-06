@@ -108,3 +108,7 @@ Add a `elm-analyse.json` config file like this and add [check names](https://sti
 ### "How can I format files on save with CoC?"
 
 Add `"coc.preferences.formatOnSaveFiletypes": ["elm"]` to `coc-settings.json`.
+
+### "What about `ElmCast/elm-vim`?"
+
+It's an older vim plugin people used before there existed a language server implementation. We're grateful it existed in the past, but [seems to be unmaintained](https://github.com/ElmCast/elm-vim/issues/189) and isn't necessary anymore.
