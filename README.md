@@ -89,6 +89,10 @@ Start with the official [`CoC example configuration`](https://github.com/neoclid
 
 Add `"coc.preferences.formatOnSaveFiletypes": ["elm"]` to `coc-settings.json`.
 
+### "CoC or the language server is not working. How can I debug?"
+
+With CoC you can use `:CocInfo` to see all client/server messages. Set [`elmLS.trace.server`](https://github.com/elm-tooling/elm-language-client-vscode#extension-settings) to `verbose`. Make sure you're using a valid elm project with an `elm.json` file or verify behavior with [`elm-spa-example`](https://github.com/rtfeldman/elm-spa-example/).
+
 ### "CoC shows only first lines of error message in floating window"
 
 CoC uses floating windows to display diagnostics (error messages). By default only the first 8 lines are shown.
@@ -116,3 +120,4 @@ Add a `elm-analyse.json` config file like this and add [check names](https://sti
 ### "What about `ElmCast/elm-vim`?"
 
 It's an older vim plugin people used before there existed a language server implementation. We're grateful it existed in the past, but [seems to be unmaintained](https://github.com/ElmCast/elm-vim/issues/189) and isn't necessary anymore.
+
