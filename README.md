@@ -12,17 +12,9 @@ Instructions to get started with [Elm](https://elm-lang.org) tooling in [Vim](ht
 
 Install [`elm-language-server`](https://github.com/elm-tooling/elm-language-server) and its [dependencies](https://github.com/elm-tooling/elm-language-server#requirements). It provides most features, e.g. diagnostics (`elm make`), linting ([`elm-analyse`](https://github.com/stil4m/elm-analyse)), jump to definition, formatting ([`elm-format`](https://github.com/avh4/elm-format)) and more. It is a standalone implementation of the language server protocol (LSP). There exist multiple language server client implementations (e.g. CoC or ale).
 
-#### Usage with CoC.nvim _(recommended)_
-
-Install [`CoC`](https://github.com/neoclide/coc.nvim). Look into [elm-language-server README](https://github.com/elm-tooling/elm-language-server#cocnvim) or [`CoC` wiki](https://github.com/neoclide/coc.nvim/wiki/Language-servers#elm) for setup and usage instructions.
-
-#### Usage with ale
-
-Install [`ale`](https://github.com/dense-analysis/ale) and use `elm_ls` linter. See [`elm-language-server` README](https://github.com/elm-tooling/elm-language-server#ale), [`ale` README](https://github.com/dense-analysis/ale#usage) and [`ale` docs](https://github.com/dense-analysis/ale/blob/master/doc/ale-elm.txt) for usage instructions.
-
-#### Usage with LanguageClient-neovim
-
-Install [`LanguageClient-neovim`](https://github.com/autozimu/LanguageClient-neovim) and see [elm-language-server README](https://github.com/elm-tooling/elm-language-server#languageclient).
+* **CoC.nvim _(recommended)_:** Install [`CoC`](https://github.com/neoclide/coc.nvim). Look into [elm-language-server README](https://github.com/elm-tooling/elm-language-server#cocnvim) or [`CoC` wiki](https://github.com/neoclide/coc.nvim/wiki/Language-servers#elm) for setup and usage instructions.
+* **ale:** Install [`ale`](https://github.com/dense-analysis/ale) and use `elm_ls` linter. See [`elm-language-server` README](https://github.com/elm-tooling/elm-language-server#ale), [`ale` README](https://github.com/dense-analysis/ale#usage) and [`ale` docs](https://github.com/dense-analysis/ale/blob/master/doc/ale-elm.txt) for usage instructions.
+* **LanguageClient-neovim:** Install [`LanguageClient-neovim`](https://github.com/autozimu/LanguageClient-neovim) and see [elm-language-server README](https://github.com/elm-tooling/elm-language-server#languageclient).
 
 ### Syntax highlighting
 
