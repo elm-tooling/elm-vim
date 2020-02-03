@@ -20,6 +20,10 @@ Install [`CoC`](https://github.com/neoclide/coc.nvim). Look into [elm-language-s
 
 Install [`ale`](https://github.com/dense-analysis/ale) and use `elm_ls` linter. See [`elm-language-server` README](https://github.com/elm-tooling/elm-language-server#ale), [`ale` README](https://github.com/dense-analysis/ale#usage) and [`ale` docs](https://github.com/dense-analysis/ale/blob/master/doc/ale-elm.txt) for usage instructions.
 
+#### Usage with LanguageClient-neovim
+
+Install [`LanguageClient-neovim`](https://github.com/autozimu/LanguageClient-neovim) and see [elm-language-server README](https://github.com/elm-tooling/elm-language-server#languageclient).
+
 ### Syntax highlighting
 
 Install [`elm-vim-syntax`](https://github.com/andys8/vim-elm-syntax). It'll provide syntax highlighting and indentation.
