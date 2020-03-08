@@ -68,7 +68,7 @@ It's a good idea to take a look how others are configuring their environments. H
 - [`andys8/dotfiles`](https://github.com/andys8/dotfiles)
 - [`Augustin82/vim`](https://github.com/Augustin82/vim)
 - [`antoine-atmire/vim-elmc`](https://github.com/antoine-atmire/vim-elmc)
-- [`pehota/dotfiles`](https://github.com/pehota/dotfiles/blob/vim-elm/vimrc)
+- [`pehota/dotfiles`](https://github.com/pehota/dotfiles/blob/master/vimrc)
 - [`hulufei/dotfiles`](https://github.com/hulufei/dotfiles)
 - [`Miaxos/Home-`](https://github.com/Miaxos/Home-/blob/master/.vimrc)
 - [`leojpod/dotfiles`](https://github.com/leojpod/dotfiles)
