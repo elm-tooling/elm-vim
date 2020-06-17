@@ -89,7 +89,7 @@ Add `"coc.preferences.formatOnSaveFiletypes": ["elm"]` to `coc-settings.json`.
 
 ### "CoC or the language server is not working. How can I debug?"
 
-With CoC you can use `:CocInfo` to see all client/server messages. Set [`elmLS.trace.server`](https://github.com/elm-tooling/elm-language-client-vscode#extension-settings) to `verbose`. Make sure you're using a valid elm project with an `elm.json` file or verify behavior with [`elm-spa-example`](https://github.com/rtfeldman/elm-spa-example/).
+With CoC you can use `:CocInfo` to see all client/server messages or `:CocOpenLog` to show the log. Set [`elmLS.trace.server`](https://github.com/elm-tooling/elm-language-client-vscode#extension-settings) to `verbose`. Make sure you're using a valid elm project with an `elm.json` file or verify behavior with [`elm-spa-example`](https://github.com/rtfeldman/elm-spa-example/).
 
 ### "CoC shows only first lines of error message in floating window"
 
