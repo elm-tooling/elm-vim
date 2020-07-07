@@ -26,6 +26,8 @@ Otherwise install [`elm-vim-syntax`](https://github.com/andys8/vim-elm-syntax) t
 
 [`elm-format`](https://github.com/avh4/elm-format) is used by `elm-language-server` to format code. An alternative is [`ale`](https://github.com/dense-analysis/ale)'s [`elm-format` fixer](https://github.com/w0rp/ale/blob/8768a309b8ef1c2e819dcb6f4630f73acab59792/doc/ale-elm.txt#L6-L29).
 
+[`vim-sleuth`](https://github.com/tpope/vim-sleuth) will set `shiftwidth` and `expandtab` according to your current file (or other similar files in your project). It is a great addition to `elm-format` and a Elm syntax.
+
 ### Linting
 
 [`elm-analyse`](https://github.com/stil4m/elm-analyse) is used by `elm-language-server` for static code analysis of elm code. It doesn't need to be installed manually. Its [checks](https://stil4m.github.io/elm-analyse/#/messages) can be [configured](https://stil4m.github.io/elm-analyse/#/configuration).
