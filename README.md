@@ -119,7 +119,7 @@ Add a `elm-analyse.json` config file like this and add [check names](https://sti
 
 ### "What about `ElmCast/elm-vim` and `Zaptic/elm-vim`?"
 
-`ElmCast/elm-vim` an older vim plugin people used before there existed a language server implementation. We're grateful it existed in the past, but [seems to be unmaintained](https://github.com/ElmCast/elm-vim/issues/189) and isn't necessary anymore.
+`ElmCast/elm-vim` is an older vim plugin people used before there existed a language server implementation. We're grateful it existed in the past, but the plugin [seems to be unmaintained](https://github.com/ElmCast/elm-vim/issues/189) and isn't necessary anymore.
 
 [`Zaptic/elm-vim`](https://github.com/Zaptic/elm-vim) is a maintained fork. It can be a simple alternative to the `elm-language-server` with fewer features and easier setup.
 
