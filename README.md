@@ -18,11 +18,9 @@ Install [`elm-language-server`](https://github.com/elm-tooling/elm-language-serv
 
 ### Syntax highlighting
 
-If you have Vim> 8.2 patch 929, Elm syntax is already [included in Vim](https://github.com/vim/vim/blob/master/runtime/syntax/elm.vim)!
+If you have Vim> 8.2 patch 929 or neovim, Elm syntax is already [included in Vim](https://github.com/vim/vim/blob/master/runtime/syntax/elm.vim)!
 
-Neovim support will come with [this issue](https://github.com/neovim/neovim/issues/13193).
-
-Alternatively install [`elm-vim-syntax`](https://github.com/andys8/vim-elm-syntax) to add syntax highlighting and indentation.
+(Alternatively install [`elm-vim-syntax`](https://github.com/andys8/vim-elm-syntax) to add syntax highlighting and indentation.)
 
 ### Code formatting
 
