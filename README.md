@@ -10,7 +10,7 @@ Instructions to get started with [Elm](https://elm-lang.org) tooling in [Vim](ht
 
 ### Language Server
 
-Install [`elm-language-server`](https://github.com/elm-tooling/elm-language-server) and its [dependencies](https://github.com/elm-tooling/elm-language-server#requirements). It provides most features, e.g. diagnostics (`elm make`), linting ([`elm-analyse`](https://github.com/stil4m/elm-analyse)), jump to definition, formatting ([`elm-format`](https://github.com/avh4/elm-format)) and more. It is a standalone implementation of the language server protocol (LSP). There exist multiple language server client implementations (e.g. CoC or ale).
+Install [`elm-language-server`](https://github.com/elm-tooling/elm-language-server) and its [dependencies](https://github.com/elm-tooling/elm-language-server#requirements). It provides most features, e.g. diagnostics (`elm make`), linting, jump to definition, formatting ([`elm-format`](https://github.com/avh4/elm-format)) and more. It is a standalone implementation of the language server protocol (LSP). There exist multiple language server client implementations (e.g. CoC or ale).
 
 * **CoC.nvim _(recommended)_:** Install [`CoC`](https://github.com/neoclide/coc.nvim). Look into [elm-language-server README](https://github.com/elm-tooling/elm-language-server#cocnvim) or [`CoC` wiki](https://github.com/neoclide/coc.nvim/wiki/Language-servers#elm) for setup and usage instructions.
 * **ale:** Install [`ale`](https://github.com/dense-analysis/ale) and use `elm_ls` linter. See [`elm-language-server` README](https://github.com/elm-tooling/elm-language-server#ale), [`ale` README](https://github.com/dense-analysis/ale#usage) and [`ale` docs](https://github.com/dense-analysis/ale/blob/master/doc/ale-elm.txt) for usage instructions.
@@ -27,10 +27,6 @@ If you have Vim> 8.2 patch 929 or neovim, Elm syntax is already [included in Vim
 [`elm-format`](https://github.com/avh4/elm-format) is used by `elm-language-server` to format code. An alternative is [`ale`](https://github.com/dense-analysis/ale)'s [`elm-format` fixer](https://github.com/w0rp/ale/blob/8768a309b8ef1c2e819dcb6f4630f73acab59792/doc/ale-elm.txt#L6-L29).
 
 [`vim-sleuth`](https://github.com/tpope/vim-sleuth) will set `shiftwidth` and `expandtab` according to your current file (or other similar files in your project). It is a great addition to `elm-format` and a Elm syntax.
-
-### Linting
-
-[`elm-analyse`](https://github.com/stil4m/elm-analyse) is used by `elm-language-server` for static code analysis of elm code. It doesn't need to be installed manually. Its [checks](https://stil4m.github.io/elm-analyse/#/messages) can be [configured](https://stil4m.github.io/elm-analyse/#/configuration).
 
 ### Snippets
 
@@ -101,13 +97,10 @@ CoC uses floating windows to display diagnostics (error messages). By default on
 - [Disable floating window](https://github.com/neoclide/coc.nvim/wiki/F.A.Q#how-could-i-disable-floating-window) and use `diagnostic.messageTarget` `"echo"` instead
 - Look into how to [scroll inside the floating window](https://github.com/elm-tooling/elm-vim/issues/3).
 
-### "How can I disable elm-analyse inside of elm-language-server?"
-
-It's possible to configure when `elm-analyse` will be triggered or disable it with config `"elmAnalyseTrigger": "never"`. See ["server settings"](https://github.com/elm-tooling/elm-language-server#server-settings).
-
-### "How can I disable an elm-analyse rule?"
+### "How can I disable a linter rule?"
 
 Add a `elm-analyse.json` config file like this and add [check names](https://stil4m.github.io/elm-analyse/#/messages).
+We're not using elm-analyse anymore, but this should still work for most rules.
 
 ```json
 {
